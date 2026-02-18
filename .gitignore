@@ -1,15 +1,6 @@
-# Virtual Environment
 backend_env/
-venv/
-
-# Python cache
+dataset/
 __pycache__/
 *.pyc
-
-# Model files (optional if large)
 *.h5
-
-# OS files
-.DS_Store
-Thumbs.db
-
+.env
