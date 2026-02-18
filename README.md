@@ -37,21 +37,3 @@ Tools
 Git & GitHub
 VS Code
 
- Project Structure
-tomato-disease-detection/
-│
-├── backend/
-│   ├── app.py
-│   └── test_model.py
-│
-├── scripts/
-│   └── frontend/
-│       ├── index.html
-│       ├── style.css
-│       └── app.js
-│
-├── models/
-├── dataset/
-├── labels.json
-├── requirements.txt
-└── README.md
