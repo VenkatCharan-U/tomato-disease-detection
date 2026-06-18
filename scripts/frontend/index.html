@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Plant Doctor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <h2>🌿 AI Plant Doc</h2>
+    <h1>Hello, Farmer! 👋</h1>
+    <p>Keep your crops healthy with AI-powered diagnosis</p>
+
+    <div class="scan-box">
+        <input type="file" id="imageInput" accept="image/*">
+        <button onclick="predict()">Scan Your Plant →</button>
+    </div>
+</div>
+
+<div class="dashboard">
+
+    <div class="stats">
+        <div class="card">
+            <h3 id="totalScans">0</h3>
+            <p>Total Scans</p>
+        </div>
+
+        <div class="card">
+            <h3 id="healthyCount">0</h3>
+            <p>Healthy</p>
+        </div>
+
+        <div class="card">
+            <h3 id="diseasedCount">0</h3>
+            <p>Diseased</p>
+        </div>
+    </div>
+
+    <h2>Recent Diagnosis</h2>
+
+    <div class="result-card hidden" id="resultCard">
+        <img id="previewImage">
+
+        <div class="result-info">
+            <h3 id="diseaseName"></h3>
+            <p id="confidenceText"></p>
+
+            <div class="progress">
+                <div id="progressBar"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

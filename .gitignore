@@ -1,0 +1,10 @@
+backend_env/
+dataset/
+__pycache__/
+*.pyc
+*.log
+.env
+*.h5
+models/
+backend_env/
+dataset/
